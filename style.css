@@ -80,6 +80,18 @@ h1{
     z-index: 10;
 }
 
+#board{
+    padding-top: 20px;
+}
+
+#outreach-com{
+    padding-top: 50px;
+}
+
+#outreach-2{
+    padding-top: 10px;
+}
+
 #home-button{
     padding:10px;
     padding-left: 20px;
