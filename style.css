@@ -57,7 +57,7 @@ h1{
 
 #jumbotron-tagline{
     color: #BF2026;
-    font-size: 75px;
+    font-size: 100px;
     text-shadow: -1px -1px 0 #000,
                 1px -1px 0 #000,
                 -1px 1px 0 #000,
@@ -70,7 +70,7 @@ h1{
 
 #jumbotron-subtag{
     color: white;
-    font-size: 40px;
+    font-size: 60px;
     text-shadow: -1px -1px 0 #000,
                 1px -1px 0 #000,
                 -1px 1px 0 #000,
