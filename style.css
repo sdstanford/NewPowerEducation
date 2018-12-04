@@ -233,3 +233,54 @@ h1{
 #video-summary-2{
     padding-top: 50px;
 }
+
+@media screen and (max-width: 820px) {
+    #jumbotron-tagline{
+        color: #BF2026;
+        font-size: 50px;
+        text-shadow: -1px -1px 0 #000,
+                    1px -1px 0 #000,
+                    -1px 1px 0 #000,
+                    1px 1px 0 #000;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        z-index: 2;
+        padding-top: 75px;
+    }
+
+    #jumbotron-subtag{
+        color: white;
+        font-size: 30px;
+        text-shadow: -1px -1px 0 #000,
+                    1px -1px 0 #000,
+                    -1px 1px 0 #000,
+                    1px 1px 0 #000;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        z-index: 10;
+    }
+
+    .header-container{
+        text-align: center;
+        background: url(images/Atlanta.jpg);
+        background-size: cover;
+        position: relative;
+        width: 100%;
+        height: 130px;
+        box-shadow: inset 0 0 0 1000px rgba(191,32,38,0.4);
+        margin-bottom: 20px;
+    }
+
+    .header-title{
+        color: white;
+        text-shadow: -1px -1px 0 #000,
+                    1px -1px 0 #000,
+                    -1px 1px 0 #000,
+                    1px 1px 0 #000;
+        text-align: center;
+        font-size: 30px;
+        font-family: Arial, Helvetica, sans-serif;
+        padding-top: 50px;
+    }
+
+}
