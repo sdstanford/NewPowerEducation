@@ -74,7 +74,7 @@ if($_POST["submit"]) {
                 <p>Sign up to receive news, updates, event notifications, and other ways to get involved. We will never sell your personal information.</p>
             </div>
         </div>
-            <form>
+            <form method="post" action="contact.php">
             <div class="row">
                 <div class="col-sm-2"></div>
                 <div class="col-sm-4">
