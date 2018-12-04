@@ -53,41 +53,41 @@
                 <p>Sign up to receive news, updates, event notifications, and other ways to get involved. We will never sell your personal information.</p>
             </div>
         </div>
-            <form action="http://formspree.io/shandstanford@gmail.com">
+            <form name="gform" id="gform" enctype="text/plain" action="https://docs.google.com/forms/d/e/1FAIpQLSdccz70tiHMoZ7B88WXysQm_1m1ngo5JhV2WRgfhARZS0h9Cg/formResponse?" target="hidden_iframe" onsubmit="submitted=true;">
             <div class="row">
                 <div class="col-sm-2"></div>
                 <div class="col-sm-4">
                     <!--Name input-->
                     <p>First Name</p>
-                    <input type="text" name="firstname" required><br>
+                    <input type="text" name="entry.1357440595" id="entry.1357440595" required><br>
                     <p>Last Name</p>
-                    <input type="text" name="lastname" required><br>
+                    <input type="text" name="entry.1550165035" id="entry.1550165035" required><br>
 
                     <!--Email input-->
                     <p>Email</p>
-                    <input type="text" name="email" required>
+                    <input type="text" name="entry.506372484" id="entry.506372484" required>
 
                     <!--Phone input-->
                     <p>Phone Number</p>
-                    <input type="text" name="phone">
+                    <input type="text" name="entry.1876203255" id="entry.1876203255">
                 </div>
                 <div class="col-sm-1"></div>
                 <div class="col-sm-5">
                     <!--Address input-->
                     <p>Address</p>
-                    <input type="text" name="address">
+                    <input type="text" name="entry.374391928" id="entry.374391928">
 
                     <!--City input-->
                     <p>City</p>
-                    <input type="text" name="city">
+                    <input type="text" name="entry.461423544" id="entry.461423544">
 
                     <!--State input-->
                     <p>State</p>
-                    <input type="text" name="state">
+                    <input type="text" name="entry.1027761216" id="entry.1027761216">
 
                     <!--Zip input-->
                     <p>Zip Code</p>
-                    <input type="text" name="zipcode" required>
+                    <input type="text" name="entry.1530308867" id="entry.1530308867" required>
                 </div>
             </div>
             <div class="row button-center">
@@ -114,4 +114,10 @@
         </div>
     </div>
 </body>
+<script type="text/javascript">
+    $('#gform').on('submit', function(e) {
+      $('#gform *').fadeOut(2000);
+      $('#gform').prepend('Thank you! Your contact information has been received.');
+      });
+    </script>
 </html>
