@@ -238,6 +238,10 @@ h1{
     padding-top: 50px;
 }
 
+.resources-vids{
+    width: 500px;
+}
+
 @media screen and (max-width: 820px) {
     #home-jumbotron img{
         position: absolute;
