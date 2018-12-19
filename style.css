@@ -251,6 +251,26 @@ h1{
     width: 500px;
 }
 
+input{
+    margin-bottom: 10px;
+}
+
+select{
+    margin-bottom: 10px;
+}
+
+required {
+    display: inline-block;
+    position: relative;
+  }
+required label:after {
+    content:"*";
+    display: block;
+    position: absolute;
+    right: -.6em;
+    top: 0;
+  }
+
 @media screen and (max-width: 820px) {
     #home-jumbotron img{
         position: absolute;
