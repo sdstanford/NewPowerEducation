@@ -129,6 +129,10 @@ h1{
     text-align: center;
 }
 
+.boardpic{
+    width: 200px;
+}
+
 .form-container{
     outline-style: solid;
     outline-color: #BF2026;
